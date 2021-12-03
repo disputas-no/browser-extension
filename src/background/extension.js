@@ -28,7 +28,7 @@ import { TabStore } from './tab-store';
 export class Extension {
   constructor() {
     const help = new HelpPage();
-    const store = new TabStore(localStorage);
+    const store = new TabStore();
     const state = new TabState(store.all(), onTabStateChange);
     const browserAction = new BrowserAction();
     const sidebar = new SidebarInjector();
