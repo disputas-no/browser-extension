@@ -6,7 +6,7 @@
   "authDomain": "disputas.no",
   "serviceUrl": "https://ponderweb.disputas.no/",
 
-  "oauthClientId": "be49c002-6e64-11ed-99d8-a318ba811b25",
+  "oauthClientId": "197fc3a8-6e66-11ed-b81f-67c4afa6fe7d",
 
   "browserIsChrome": true,
   "appType": "chrome-extension"
