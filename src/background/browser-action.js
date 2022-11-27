@@ -9,12 +9,12 @@ import settings from './settings';
 // for hi-res screens (38).
 const icons = {
   active: {
-    19: 'images/browser-icon-active.png',
-    38: 'images/browser-icon-active@2x.png',
+    19: 'images/icon16.png',
+    38: 'images/icon48.png',
   },
   inactive: {
-    19: 'images/browser-icon-inactive.png',
-    38: 'images/browser-icon-inactive@2x.png',
+    19: 'images/icon16.png',
+    38: 'images/icon48.png',
   },
 };
 
