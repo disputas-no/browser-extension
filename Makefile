@@ -60,9 +60,9 @@ build/extension.bundle.js: src/background/*.js rollup.config.mjs build/settings.
 	$(ROLLUP) -c rollup.config.mjs
 build/manifest.json: src/manifest.json.mustache build/settings.json
 	$(MUSTACHE) build/settings.json $< > $@
-build/client/build: node_modules/hypothesis/build/manifest.json
+build/client/build: node_modules/@disputas/client/build/manifest.json
 	@mkdir -p $@
-	cp -R node_modules/hypothesis/build/* $@
+	cp -R node_modules/@disputas/client/build/* $@
 	@# We can't leave the client manifest in the build or the Chrome Web Store
 	@# will complain.
 	rm $@/manifest.json
