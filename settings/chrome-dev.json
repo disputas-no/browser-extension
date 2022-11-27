@@ -1,10 +1,12 @@
 {
   "buildType": "dev",
 
+  "manifestV3": true,
+
   "apiUrl": "http://localhost:5000/api/",
   "authDomain": "localhost",
-  "bouncerUrl": "http://localhost:8000/",
   "serviceUrl": "http://localhost:5000/",
+  "oauthClientId": "06e3c44e-66b2-11ed-bcd3-53a552555568",
 
   "browserIsChrome": true,
   "appType": "chrome-extension"
